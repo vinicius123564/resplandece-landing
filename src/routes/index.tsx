@@ -31,7 +31,7 @@ import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
 
 const WHATSAPP_LINK =
-  "https://wa.me/5541992242512?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento";
+  "https://wa.me/554133292000?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento";
 
 function smoothScrollTo(id: string) {
   const el = document.getElementById(id);
