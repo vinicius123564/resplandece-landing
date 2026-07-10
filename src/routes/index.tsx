@@ -205,7 +205,7 @@ function HeroSection() {
             Vidraçaria Resplandescente
           </p>
           <h1 className="text-balance text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
-            Confiança que você já conhece, agora com página própria
+            Vidraçaria no Boqueirão: Soluções sob medida em Vidros e Esquadrias em Curitiba
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-white/85 md:text-xl">
             Referência em vidros e esquadrias em Curitiba. Atendemos Boqueirão
