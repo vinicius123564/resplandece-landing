@@ -98,14 +98,14 @@ function Navbar() {
           className="flex items-center gap-2"
         >
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-petroleum">
-            <span className="font-serif text-lg font-bold text-white">VR</span>
+            <span className="font-serif text-lg font-bold text-white">CG</span>
           </div>
           <span
             className={`font-serif text-lg font-semibold tracking-tight transition-colors ${
               scrolled ? "text-petroleum" : "text-white"
             }`}
           >
-            Resplandescente
+            Center Glass
           </span>
         </a>
 
@@ -202,13 +202,13 @@ function HeroSection() {
       <div className="relative mx-auto max-w-7xl px-4 py-32 lg:px-6">
         <div className="max-w-2xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-gold">
-            Vidraçaria Resplandescente
+            Center Glass
           </p>
           <h1 className="text-balance text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
-            Vidraçaria no Boqueirão: Soluções sob medida em Vidros e Esquadrias em Curitiba
+            Vidraçaria no Rebouças: Soluções sob medida em Vidros Temperados em Curitiba
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-white/85 md:text-xl">
-            Referência em vidros e esquadrias em Curitiba. Atendemos Boqueirão
+            Referência em vidros e espelhos em Curitiba. Atendemos Rebouças
             e toda a região com qualidade reconhecida e preço justo.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
@@ -251,7 +251,7 @@ function SocialProofSection() {
                   }`}
                 />
               ))}
-              <span className="ml-2 text-lg font-bold text-graphite">4.5</span>
+              <span className="ml-2 text-lg font-bold text-graphite">4.7</span>
             </div>
             <p className="mt-1 text-sm text-muted-foreground">
               Avaliação média no Google
@@ -261,7 +261,7 @@ function SocialProofSection() {
           <div className="hidden h-12 w-px bg-border md:block" />
 
           <div className="text-center md:text-left">
-            <p className="text-3xl font-bold text-petroleum md:text-4xl">+400</p>
+            <p className="text-3xl font-bold text-petroleum md:text-4xl">+50</p>
             <p className="text-sm font-medium text-muted-foreground">
               Avaliações positivas no Google
             </p>
@@ -508,7 +508,7 @@ function DifferentialsSection() {
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-gold">
-            Por que escolher a Resplandescente
+            Por que escolher a Center Glass
           </p>
           <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
             Diferenciais que fazem a diferença
@@ -575,7 +575,7 @@ function ContactSection() {
               <div>
                 <p className="font-semibold text-foreground">Telefone / WhatsApp</p>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  (41) 99224-2512
+                  (41) 3329-2000
                 </p>
               </div>
             </div>
@@ -587,10 +587,10 @@ function ContactSection() {
               <div>
                 <p className="font-semibold text-foreground">Horário de Funcionamento</p>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  Segunda a Sexta: 08:00 - 18:00
+                  Segunda a Sexta: 09:00 - 17:00
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  Sábado: 08:00 - 12:00
+                  Sábado: 09:00 - 12:00
                 </p>
               </div>
             </div>
@@ -611,8 +611,8 @@ function ContactSection() {
           {/* Map */}
           <div className="overflow-hidden rounded-xl border border-border bg-white shadow-sm">
             <iframe
-              title="Localização da Vidraçaria Resplandescente"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14411.6!2d-49.25!3d-25.38!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDIyJzQ4LjAiUyA0OcKwMTUnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1"
+              title="Localização da Center Glass"
+              src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.526433651317!2d-49.26630290000001!3d-25.454091400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3cc7f38db43%3A0x462c710582a511d7!2sVIDRA%C3%87ARIA%20CENTER%20GLASS%20-%20Vidros%20Temperados%20e%20Espelhos!5e0!3m2!1spt-BR!2sbr!4v1783699325678!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "360px" }}
@@ -669,11 +669,11 @@ function Footer() {
               <span className="font-serif text-base font-bold text-white">VR</span>
             </div>
             <span className="font-serif text-base font-semibold text-white">
-              Vidraçaria Resplandescente
+              Center Glass
             </span>
           </div>
           <p className="text-center text-sm text-white/60">
-            Boqueirão, Curitiba - PR · (41) 99224-2512
+            Rebouças, Curitiba - PR · (41) 3329-2000
           </p>
           <p className="text-sm text-white/60">
             © {new Date().getFullYear()} Todos os direitos reservados.
