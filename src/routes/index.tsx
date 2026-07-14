@@ -31,7 +31,7 @@ import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
 
 const WHATSAPP_LINK =
-  "https://wa.me/554133292000?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento";
+  "https://wa.me/5541996754146?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento";
 
 function smoothScrollTo(id: string) {
   const el = document.getElementById(id);
@@ -98,14 +98,14 @@ function Navbar() {
           className="flex items-center gap-2"
         >
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-petroleum">
-            <span className="font-serif text-lg font-bold text-white">CG</span>
+            <span className="font-serif text-lg font-bold text-white">VM</span>
           </div>
           <span
             className={`font-serif text-lg font-semibold tracking-tight transition-colors ${
               scrolled ? "text-petroleum" : "text-white"
             }`}
           >
-            Center Glass
+            Vidraçaria Mirage
           </span>
         </a>
 
@@ -202,13 +202,13 @@ function HeroSection() {
       <div className="relative mx-auto max-w-7xl px-4 py-32 lg:px-6">
         <div className="max-w-2xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-gold">
-            Center Glass
+            Vidraçaria Mirage
           </p>
           <h1 className="text-balance text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
-            Vidraçaria no Rebouças: Soluções sob medida em Vidros Temperados em Curitiba
+            Vidraçaria no Água Verde: Soluções sob medida em Vidros e Esquadrias em Curitiba
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-white/85 md:text-xl">
-            Referência em vidros e espelhos em Curitiba. Atendemos Rebouças
+            Referência em vidros e esquadrias em Curitiba. Atendemos Água Verde
             e toda a região com qualidade reconhecida e preço justo.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
@@ -508,7 +508,7 @@ function DifferentialsSection() {
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-gold">
-            Por que escolher a Center Glass
+            Por que escolher a Vidraçaria Mirage
           </p>
           <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
             Diferenciais que fazem a diferença
@@ -548,7 +548,7 @@ function ContactSection() {
             Visite nossa loja
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Estamos localizados no bairro Boqueirão, em Curitiba, prontos para
+            Estamos localizados no bairro Água Verde, em Curitiba, prontos para
             atender você.
           </p>
         </div>
@@ -563,7 +563,7 @@ function ContactSection() {
               <div>
                 <p className="font-semibold text-foreground">Endereço</p>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  Boqueirão, Curitiba - PR
+                  Av. Água Verde, 373 - Lj 2 - Água Verde, Curitiba - PR, 80620-200
                 </p>
               </div>
             </div>
@@ -575,7 +575,7 @@ function ContactSection() {
               <div>
                 <p className="font-semibold text-foreground">Telefone / WhatsApp</p>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  (41) 3329-2000
+                  (41) 99675-4146
                 </p>
               </div>
             </div>
@@ -611,8 +611,8 @@ function ContactSection() {
 {/* Map */}
   <div className="overflow-hidden rounded-xl border border-border bg-white shadow-sm">
     <iframe
-      title="Localização da Vidraçaria"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.526433651317!2d-49.26630290000001!3d-25.454091400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3cc7f38db43%3A0x462c710582a511d7!2sVIDRA%C3%87ARIA%20CENTER%20GLASS%20-%20Vidros%20Temperados%20e%20Espelhos!5e0!3m2!1spt-BR!2sbr!4v1783699325678!5m2!1spt-BR!2sbr" 
+      title="Localização da Vidraçaria Mirage"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.526433651317!2d-49.26630290000001!3d-25.454091400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zQXYuw4FndWEgVmVyZGUsIDM3MyAtIExqIDIsIMO6cml0aWJhIC0gUFIsIDgwNjIwLTIwMA!5e0!3m2!1spt-BR!2sbr!4v1783699325678!5m2!1spt-BR!2sbr" 
       width="100%" 
       height="450" 
       style={{ border: 0 }} 
@@ -666,14 +666,14 @@ function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10">
-              <span className="font-serif text-base font-bold text-white">VR</span>
+              <span className="font-serif text-base font-bold text-white">VM</span>
             </div>
             <span className="font-serif text-base font-semibold text-white">
-              Center Glass
+              Vidraçaria Mirage
             </span>
           </div>
           <p className="text-center text-sm text-white/60">
-            Rebouças, Curitiba - PR · (41) 3329-2000
+            Água Verde, Curitiba - PR · (41) 99675-4146
           </p>
           <p className="text-sm text-white/60">
             © {new Date().getFullYear()} Todos os direitos reservados.
